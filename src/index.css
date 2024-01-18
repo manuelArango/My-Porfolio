@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi&family=Poppins:wght@300&display=swap');
+
+
+:root{
+  --color1: #0B7BDB;
+  --color2: #fff;
+}
+
+body {
+  background: url('./assets/images/Background.png') center center fixed;
+  background-size: cover;
+  margin: 0px;
+  font-family: 'Anek Gurmukhi', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  max-width: none;
+  
+}
+
+.color1{
+  color: var(--color1);
+}
+.color2{
+  color: var(--color2);
+}
+
+.Navbar{
+
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  margin: 0 2%;
+}
+
+.Navbar-items{
+  display: flex;
+  align-items: center;
+  color: var(--color2);
+}
+
+.Navbar-item{
+  margin-right: 30px;
+  font-size: 20px;
+}
+.Navbar-item-sidebar{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.Navbar-logo{
+  width: auto;
+  max-width: 600px;
+  max-height: 130px;
+  margin-top: -15px;
+  
+}
+
+.Navbar-icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+.Navbar-icon-sidebar{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px ;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.burger-icon {
+  font-size: 40px;
+  transition: transform 0.3s ease;
+  color: var(--color2);
+  margin-right: 10px;
+}
+
+.burger-icon:hover {
+  transform: scale(1.2); /* Cambia el tamaño al hacer hover */
+}
+
+@media(max-width: 1200px){
+  .ocultar{
+    display: none;
+  }
+  .side-bar.active {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    background: url('./assets/images/Background.png') center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+@media(min-width: 1200px){
+  .burguer{
+    display: none;
+  }
+  
+}
+.side-bar{
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.side-bar-container{
+  margin: 20px;
+  text-align: center;
+}
+
+
+
+
+
+.side-bar .navbar-item {
+  margin-bottom: 10px;
+}
+.sidebar-item{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.Close-sidebar{
+  color: var(--color1);
+  width: 30px;
+  height: 30px;
+  
+}
+
+.X{
+  text-align: right !important;
+  margin-bottom: -20px;
+  margin-top: 32px;
+  margin-right: 7px;
+}
+
+
+
+
+
+/* About*/
+
+.Container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9vw;
+  margin-right: 9vw;
+  margin-top: 120px ;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+}
+
+.Text-Container{
+  margin: 20px;
+  margin-left:5vw;
+  margin-right: 18vw;
+}
+
+@media (max-width: 1480px) {
+  .Text-Container{
+    margin-right: 6vw;
+  }
+
+}
+
+
+.Tittle{
+  color: var(--color1);
+  margin-bottom: 0px;
+  font-size: 50px;
+  margin-top: 1vw;
+}
+
+.Subtittle{
+  color: var(--color1);
+  font-weight: 100;
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.Text{
+  color: var(--color2);
+  font-weight: 100;
+  
+  font-size: 20px;
+}
+
+.MyImage{
+  height: 429px;
+  width: 325px;
+  border-radius: 20px ;
+}
+
+
+@media (max-width: 1323px) {
+  .Container{
+    display: block;
+    text-align: center;
+  }
+  .MyImage{
+    height: 429px;
+    width: 325px;
+    border-radius: 20px ;
+    align-items: center;
+    display: inline-block;
+    margin-bottom: -7px;
+  }
+
+}
+
+
+/* About Me */
+
+
+.Subtittle2{
+  color: var(--color1);
+  font-weight: 100;
+  margin-top: 0px;
+  font-size: 45px;
+}
+.User-icon{
+  width: 44px;
+  height: 44px;
+  margin-top: 26px;
+  margin-right: 20px;
+  margin-left: -7px;
+}
+
+.About-Me-Container-1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px ;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  min-width: 38.5vw;
+}
+
+.About-Me-Container-2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px ;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  min-width: 38.5vw;
+}
+
+.Text-Container-About{
+  margin: 20px;
+  margin-left:4vw;
+  margin-right: 4vw;
+}
+
+.Container-All-about{
+  display: flex;
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+
+.Container-About-Separator{
+  margin-right: 2vw;
+}
+
+.Container-Qualities-Separator{
+  margin-left: 2vw;
+}
+
+@media (max-width: 1200px) {
+
+  .Container-All-about{
+    display: block;
+  }
+
+  .Text-Container-About{
+    align-items: center;
+    text-align: center;
+  }
+  .Text{
+    list-style-type: none;
+  }
+
+  
+
+  .Container-About-Separator{
+    margin-right: 0vw;
+  }
+  
+  .Container-Qualities-Separator{
+    margin-left: 0vw;
+  }
+  .Text-Container-About{
+    min-width: 70vw;
+  }
+}
