@@ -1,4 +1,4 @@
-import MyImage from '../assets/images/MyImage.png'
+import MyImage from '../assets/images/Mi_Foto.png'
 
 export function About() {
     return (
@@ -17,6 +17,7 @@ export function About() {
                     <img className="MyImage" src={MyImage} alt='Me' />
                 </div>
         </div>
+        
         </div>
     )
 
