@@ -25,7 +25,7 @@ export function Skills() {
         <div className="Skills-Container">
 
             <div className="Skills-Text-Container">
-                <h1 className="Subtittle2">My Skills</h1>
+                <h2 className="Subtittle2">My Skills</h2>
             </div>
             <div>
                 <ul className="Skills-Icons">

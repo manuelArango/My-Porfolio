@@ -7,7 +7,7 @@ export function AboutMe() {
             <div className="Container-About-Separator">
                 <div className="About-Me-Container-1">
                     <div className="Text-Container-About">
-                            <h1 className="Subtittle2">About me</h1>
+                            <h2 className="Subtittle2-0">About me</h2>
                         <h3 className="Text">My passion for systems engineering began when I was 15 years old and in school,
                             all thanks to a project in which we had to design a car and a program that would control the movements of the car.
                             <br></br>
@@ -26,7 +26,7 @@ export function AboutMe() {
                 <div className="About-Me-Container-2">
                     <div className="Text-Container-About">
                         <div className="Tittle-Image">
-                            <h1 className="Subtittle2">My Qualities</h1>
+                            <h2 className="Subtittle2">My Qualities</h2>
                         </div>
 
                         <ul className="Text">
