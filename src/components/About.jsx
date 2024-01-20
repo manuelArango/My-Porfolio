@@ -9,7 +9,7 @@ export function About() {
     };
 
     return (
-        <div>
+        <div id="Home">
             <div className="Container">
 
                 <div className="Text-Container ">

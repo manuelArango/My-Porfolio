@@ -3,7 +3,7 @@ import user from "../assets/icons/user.png"
 export function AboutMe() {
     return (
 
-        <div className="Container-All-about">
+        <div id="AboutMe"className="Container-All-about">
             <div className="Container-About-Separator">
                 <div className="About-Me-Container-1">
                     <div className="Text-Container-About">

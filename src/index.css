@@ -56,14 +56,20 @@ body {
 }
 
 .Navbar-item:hover{
-  color: var(--color1) !important;
+  color: #62cfe4 !important;
   cursor: pointer;
   
 }
 .Navbar-item-sidebar{
   font-size: 20px;
   margin-top: 20px;
+  cursor: pointer;
 }
+
+.Navbar-item.active {
+  color: #0B7BDB; /* Cambia el color según tus preferencias */
+}
+
 
 .Navbar-logo{
   width: auto;
@@ -183,6 +189,14 @@ body {
     color: #fff;
     text-align: center;
   }
+  .Navbar{
+    margin-top: -20px;
+    max-height: 90px;
+  }
+  .Navbar-logo{
+    margin-left: -10px;
+  }
+
 }
 
 @media(min-width: 1350px){
@@ -191,6 +205,13 @@ body {
   }
   
 }
+@media(max-width: 1350px){
+  .burguer{
+    margin-right: -35px;
+  }
+  
+}
+
 .side-bar{
   height: 0;
   width: 0;

@@ -22,7 +22,7 @@ export function Skills() {
 
     return (
 
-        <div className="Skills-Container">
+        <div id="Skills" className="Skills-Container">
 
             <div className="Skills-Text-Container">
                 <h2 className="Subtittle2">My Skills</h2>
