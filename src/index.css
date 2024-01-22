@@ -644,3 +644,114 @@ body {
   margin-top: 35px;
   font-size: 16px;
 }
+
+
+/* Footer */
+
+.footer{
+  margin-top: 50px;
+  width: 100%;;
+  background: url('./assets/images/Background.png') center center fixed;
+  background-size: cover;
+  color: var(--color2);
+  border-top: 2px solid #ffffff;
+}
+
+.footer .group-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 100px;
+  padding: 0px 0px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:250px;
+
+}
+.footer .group-1 .box figure{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .group-1 .box figure img{
+  width: 100px;
+  padding-top: 0px;
+}
+
+.footer .group-1 .box h2{
+  text-transform: capitalize;
+  color: var(--color2);
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.footer .group-1 .box p{
+  color: var(--color2);
+  margin-bottom: 10px;
+}
+
+
+.footer .group-2{
+
+  text-align: center;
+  color: var(--color2);
+  background-color: rgba(28, 25, 25, 0.693);
+
+}
+
+.footer .group-2 small{
+  font-size: 15px;
+}
+
+.socials-media a{
+  color: var(--color2);
+  text-align: center;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.socials-media .social-media{
+  display: flex;
+  color: var(--color2);
+  align-items: center;
+}
+.socials-media .social-media span{
+  color: var(--color2);
+  margin-left: 7px;
+  text-decoration: none;
+}
+
+.social-media img{
+  width: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  .footer .group-1{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .footer .group-1 .box figure{
+  margin: 0px;
+  margin-top: 30px;
+  }
+
+  .socials-media .social-media{
+    justify-content: center;
+  }
+
+  .footer .group-2{
+    margin-top: 30px ;
+  }
+}
