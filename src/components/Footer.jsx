@@ -30,7 +30,7 @@ export function Footer() {
 
                         <a className='social-media' href='https://www.linkedin.com/in/manuel-arango-gomez-5157b423a/'>
                             <img src={linkedin} alt="" />
-                            <span>@libreria_acentos_eafit</span>
+                            <span>manuel-arango-gomez</span>
                         </a>
                     </div>
                 </div>
