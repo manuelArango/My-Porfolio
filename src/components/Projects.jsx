@@ -1,4 +1,4 @@
-import Acentos from "../assets/images/Acentos.jpg"
+import Acentos from "../assets/images/Acentos.png"
 
 export function Projects() {
 
