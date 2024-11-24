@@ -15,6 +15,10 @@ import Python from "../assets/icons/Python.png"
 import php from "../assets/icons/php.png"
 import React_Vite from "../assets/icons/React_Vite.png"
 
+import PApps from "../assets/icons/PApps.png"
+import PBI from "../assets/icons/PBI.png"
+import Sharepoint from "../assets/icons/sharepoint.png"
+import PAut from "../assets/icons/PAut.png"
 
 
 export function Skills() {
@@ -88,6 +92,22 @@ export function Skills() {
                     <li className="Icons-Container">
                         <img className="Icon-Skills" src={React_Vite} alt="React_Vite" />
                         <span> React Vite </span>
+                    </li>
+                    <li className="Icons-Container">
+                        <img className="Icon-Skills" src={PApps} alt="React_Vite" />
+                        <span> Power Apps </span>
+                    </li>
+                    <li className="Icons-Container">
+                        <img className="Icon-Skills" src={PBI} alt="React_Vite" />
+                        <span> Power BI </span>
+                    </li>
+                    <li className="Icons-Container">
+                        <img className="Icon-Skills" src={PAut} alt="React_Vite" />
+                        <span> Power Automate </span>
+                    </li>
+                    <li className="Icons-Container">
+                        <img className="Icon-Skills" src={Sharepoint} alt="React_Vite" />
+                        <span> Sharepoint </span>
                     </li>
                 </ul>
             </div>

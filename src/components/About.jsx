@@ -15,7 +15,7 @@ export function About() {
                 <div className="Text-Container ">
                     <h1 className="Tittle"> Hello! </h1>
                     <h2 className="Subtittle">I'm Manuel Arango Gómez</h2>
-                    <h3 className="Text">A seventh-semester student pursuing a
+                    <h3 className="Text">A ninth-semester student pursuing a
                         degree in Systems Engineering at EAFIT University, with a strong
                         academic background and a passion for technology. My focus is on
                         developing innovative and efficient solutions for complex computational challenges.</h3>

@@ -535,6 +535,7 @@ body {
 .Link{
   color: var(--color1);
   display: block;
+  width: 150px;
 }
 
 
@@ -635,12 +636,35 @@ body {
   font-size: 30px;
 }
 
-.Project-Image{
-  border-radius: 20px;
+.Project-Image1{
+  border-radius: 10px;
   height: 40vw;
   width: 70vw;
   margin-top: 15px;
   
+}
+.Project-Image2{
+  border-radius: 10px;
+  height: 32vw;
+  width: 70vw;
+  margin-top: 15px;
+  
+}
+
+.Project-Image3{
+  border-radius: 10px;
+  height: 40vw;
+  width: 20vw;
+  margin-top: 15px;
+  
+  
+}
+
+.ImagesContainer{
+  display: flex;           /* Activa flexbox */
+  flex-direction: column;  /* Organiza elementos en columna */
+  align-items: center;     /* Centra horizontalmente */
+  text-align: center;      /* Opcional: centra el texto */
 }
 
 
@@ -761,3 +785,9 @@ body {
     margin-top: 30px ;
   }
 }
+
+
+.ProjectContainer{
+  margin-bottom: 50px;
+}
+

@@ -6,14 +6,14 @@ import BotellasAmorApp from "../assets/images/BotellasAmorApp.png"
 
 
 
-export function Projects() {
+export function Experience() {
 
     return (
 
         <div id="Projects" className="Projects-Container">
             <div className="Text-Container-Projects">
                 <div>
-                    <h2 className="Subtittle2"> My Projects</h2>
+                    <h2 className="Subtittle2"> My Experience</h2>
                 </div>
                 <div>
                     <div className="ProjectContainer">

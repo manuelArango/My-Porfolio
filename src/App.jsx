@@ -3,6 +3,7 @@ import { About } from './components/About'
 import { AboutMe } from './components/AboutMe'
 import { Navbar } from './components/navbar'
 import { Skills } from './components/Skills'
+//import { Experience } from './components/Experience'
 import { Projects } from './components/Projects'
 import { Footer } from './components/Footer'
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <AboutMe />
       <Skills />
+      {/* <Experience /> */}
       <Projects />
       <div className="bubbles">
         <div className="bubble"></div>
